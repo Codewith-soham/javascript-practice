@@ -24,3 +24,35 @@ console.log(typeof(stringNumber));
 
 
 
+// -------------- Operation --------------- //
+//arithmetatic operation
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2); raise to
+// console.log(2%2);
+
+let str1 = "hello"
+let str2= " soham"
+let str3 = str1 + str2
+console.log(str3);
+
+//if starting with string js keeps everything in string
+console.log("3" + 2 + 2);
+console.log(3 + 3 + "5");
+
+
+//proper way to write
+console.log((3 + 4) * 5 % 3);
+
+console.log(+true);
+console.log(+"");
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+++gameCounter; //prefix increments before use
+gameCounter++; //postfix increments after use
+console.log(gameCounter);
