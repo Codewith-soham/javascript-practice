@@ -16,4 +16,4 @@ let isLoggedIn = false
 //symbol => unique
 //object
 
-console.log(typeof "soham");
+console.log(typeof "soham"); //typeof -> describe type of value
