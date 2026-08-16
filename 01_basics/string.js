@@ -6,7 +6,7 @@ const repoName = 50
 console.log(`My name is ${name} and my repoCount is ${repoName}`); //String interpolation can inject value of placeholder(variable) into `` -> modern way of syntax
 
 //String functions
-const gameName = new String("soham-ghadge") //way of writing string using string constructor
+const gameName = new String("soham-ghadge-nagesh") //way of writing string using string constructor
 
 console.log(gameName[0]); //will give character at position
 console.log(gameName.__proto__);
@@ -29,5 +29,6 @@ const url = "https://soham.com/soham%20ghadge"
 console.log(url.replace("%20", "-")); //replaces the string which you want
 console.log(url.includes('soham')); //checks keywords in the string
 
+console.log(gameName.split("-")); //splits the string according to the spliter value
 
 
