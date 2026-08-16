@@ -34,3 +34,24 @@ console.log(typeof bigNumber);
 console.log(typeof bigNumber);
 console.log(typeof heros); //function object
 
+//Memory 1. Stack(Primitive) memory 2.Heap(Non-primitive) memory
+
+let myYoutubeName = "sohamcodes"  //primitive -> stack memory
+let anotherName = myYoutubeName
+anotherName = "codewithsoham"
+
+console.log(myYoutubeName);
+
+console.log(anotherName);
+
+let userOne = {    //non primitive -> heap memory
+    email: "ghadge@gmail.com",
+    name: "soham"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ghadgesoham@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
