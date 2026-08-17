@@ -25,9 +25,8 @@ console.log(newData);
 console.log(newData.getMonth());
 console.log(newData.getDate());
 
-
-
-
-
+newData.toLocaleDateString('default', {
+    weekday: "long"
+})
 
 
