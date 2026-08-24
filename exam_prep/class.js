@@ -12,4 +12,4 @@ class Student{   //define a class
 
 const s1 = new Student("Soham", 20)  //create object of class
 
-s1.display()
+s1.display()  
