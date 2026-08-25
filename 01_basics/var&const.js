@@ -2,7 +2,7 @@
 console.log("soham")
 
 //const -> cannot be changes and var -> can be changed
-const accountId = 144553  //value cannot be changed
+const accountId53 = 1445  //value cannot be changed
 let accountEmail = "soham@gmail.com" 
 var accountPassoword = "12345"
 accountCity = "Jaiput" //reserve memory without defining variables

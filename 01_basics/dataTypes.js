@@ -17,3 +17,4 @@ let isLoggedIn = false
 //object
 
 console.log(typeof "soham"); //typeof -> describe type of value
+console.log(typeof(age));
