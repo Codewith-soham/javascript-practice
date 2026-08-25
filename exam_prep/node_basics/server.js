@@ -28,6 +28,28 @@ fs.readFile("test.txt", "utf-8", (err, data) => {
 
 console.log("File reading completed");
 
+//read a file using stream
+const readStream = fs.createReadStream("test.txt", "utf-8")
+
+readStream.on("data", (chunk) => {
+    console.log(chunk); //reads file in chunks 
+})
+
+//writerStream write data in files
+const writerStream = fs.createWriteStream("test.txt")
+
+writerStream.write("hello myself soham ")
+writerStream.write("Learning node js")
+
+writerStream.end()
+
+//pipe -> connects readable to writable stream
+const readStream1 = fs.createReadStream("test.txt")
+
+const writeStream1 = fs.createWriteStream("output.txt")
+
+readStream1.pipe(writeStream1)
+
 // http module → Used to create HTTP server
 // createServer() → Creates the server
 // req → Incoming request
