@@ -1,0 +1,20 @@
+http.createServer()      → Create server
+req                      → Incoming request
+res                      → Send response
+
+fs.readFileSync()        → Synchronous file reading
+fs.readFile()            → Asynchronous file reading
+
+eventEmitter.on()        → Register listener
+eventEmitter.emit()      → Trigger event
+
+Buffer.from()            → Create buffer
+buffer.toString()        → Convert buffer to string
+
+fs.createReadStream()    → Read data in chunks
+fs.createWriteStream()   → Write data in chunks
+readStream.pipe()        → Connect read → write stream
+
+URL                      → Parse URL
+pathname                 → Path of URL
+searchParams.get()       → Get query parameter
